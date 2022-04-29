@@ -22,22 +22,22 @@ class Program
 
         // process
         Console.WriteLine("");
-        if(age >= 17)
+        if (age >= 17)
         {
             Console.WriteLine("You can watch R rated movies alone!");
         }
-        else if(age >= 13)
+        else if (age >= 13)
         {
             Console.WriteLine("You can watch PG-13 rated movies alone!");
         }
-        else if(age >= 5)
+        else if (age >= 5)
         {
             Console.WriteLine("You can watch PG and G rated movies!");
         }
         else if (age <= 5)
         {
             Console.WriteLine("You probably can't watch too many movies");
-        }    
+        }
         Console.WriteLine("\nDone.");
     }
 }
